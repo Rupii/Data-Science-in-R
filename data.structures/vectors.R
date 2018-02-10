@@ -36,6 +36,23 @@ vect[c('a', 'b')] #can acces using names too
 
 
 
+# vector algebra
+v1 <- c(1, 2, 3)
+v2 <- c(4, 5, 6)
+
+v1 + v2 
+
+v1 + 3 # broadcasting
+
+v1 * v2 # element wise multiplication
+
+v1 %*% v2 #dot product
+
+t(v2) # transpose
+
+
+
+
 # get help in R 
 
 help("vector")
