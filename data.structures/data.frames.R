@@ -47,3 +47,10 @@ ncol(df)
 
 # boolean masking
 df[df$id > 100]
+
+#missing valus
+
+is.na(df)
+# return true if any missing value in your data frame
+
+any(is.na(df)) # quick return instead of colplete df
